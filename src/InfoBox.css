@@ -1,0 +1,66 @@
+.InfoBox{
+    text-align: center;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.InfoBox {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  
+  .card-container:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  }
+  
+  .MuiCard-root {
+    border-radius: 20px;
+    overflow: hidden;
+    background: #ffffff;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  }
+  
+  .MuiCardContent-root {
+    padding: 20px;
+    background: #f7f7f7;
+  }
+  
+  .MuiTypography-h5 {
+    font-weight: bold;
+    color: #333;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .MuiTypography-body2 p {
+    margin: 6px 0;
+    font-size: 15px;
+    color: #555;
+  }
+  
+  .MuiTypography-body2 i {
+    font-style: italic;
+    color: #0077b6;
+  }
+  
+  .card-container {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  box-shadow: 0 8px 30px rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  margin-top: 30px;
+  width: 90%;
+  max-width: 400px;
+  transition: transform 0.3s ease;
+}
+.card-container:hover{
+  transform: scale(1.02);
+}
